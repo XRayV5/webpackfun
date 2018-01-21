@@ -1,0 +1,15 @@
+{
+  "name": "splittingfun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:single": "webpack --config ./config/webpack.config.single.js",
+    "build:multiple": "webpack --config ./config/webpack.config.multiple.js",
+    "build:es6": "webpack --config ./config/webpack.config.es6.js",
+    "build:hoist": "webpack --config ./config/webpack.config.hoist.js"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
